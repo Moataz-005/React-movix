@@ -1,0 +1,53 @@
+.Parent_section{
+    margin-top:10px ;
+    padding: 14px;
+}
+
+.parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0px 30px ;
+}
+.parent h1{
+    color:white;
+    font-size: 25px;
+}
+.parent .btn{
+    height:40px ;
+    width:160px ;
+    background-color: white;
+    border-radius:20px;
+    overflow: hidden;
+    padding: 6px;
+}
+.parent .btn button{
+    width:50% ;
+    height: 100%;
+    border-radius:20px ;
+    border: none;
+    
+}
+.parent .btn button{
+    background-color: var(--gradient);
+}
+
+.section{
+    margin-top: 15px;
+    padding: 30px 15px;
+}
+.section .card{
+    overflow: hidden;
+    border-radius:25px ;
+    padding: 1px;
+    position: relative;
+}
+.section .card .rating{
+    position: absolute;
+    bottom: 30px;
+    width:60px ;
+}
+.section .card .date{
+    color:#6E747C;
+    font-size: 18px;
+}

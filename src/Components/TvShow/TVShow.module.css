@@ -1,0 +1,33 @@
+.main_parent{
+    margin-top: 100px;
+
+}
+
+/* .subparent{
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+    background-color:teal ;
+} */
+.subparent .filters{
+display:flex ;
+padding: 25px;
+}
+
+
+.selector{
+
+    background-color: red;
+    margin-left:10px ;
+    border-radius: 20px;
+    /* overflow: hidden; */
+}
+
+.poster{
+  border-radius:30px ;  
+  overflow: hidden;
+}
+.card .date{
+    color:#6E747C;
+    font-size: 18px;
+}

@@ -1,0 +1,91 @@
+.parent_section{
+    padding: 60px 20px;
+    /* background-color:orange; */
+}
+
+.content{
+    /* background-color: red; */
+    margin-top: 20px;
+}
+
+ .content img{
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.caption{
+    padding:10px 25px ;
+}
+.caption h1{
+    color:white ;
+    font-family: "Noto Sans", sans-serif
+}
+.caption span{
+    font-size:28px ;
+    color: white;
+}
+.caption .genes{
+    margin-top:12px ;
+    display:flex ;
+}
+.caption .genes .child{
+    height:auto ;
+    width:auto;
+    font-size:13px ;
+    margin-right:4px ;
+    background-color: #da2f68;
+    border-radius:5px ;
+    padding:1px 4px
+}
+
+.caption .watch{
+    margin-top:30px ;
+    display: flex;
+    align-items: center;
+}
+.watch .rating{
+    width:80px ;
+}
+
+
+.movcaption{
+    color:white ;
+    margin-top:20px;
+    padding: 10px 20px;
+}
+
+.movcaption p{
+    color: white;
+}
+.detil{
+    display:flex ;
+    justify-content: space-between;
+    border-bottom:1px solid #323D4F ;
+}
+.detil h3{
+    font-size: 22px;
+}
+
+.detil span{
+    font-size: 18px;
+    color:#323D4F ;
+    font-weight:bold ;
+}
+
+.topcast{
+  margin-top:40px ;  
+  background-color: red; 
+  overflow: scroll; 
+}
+.topcast h2{
+    color:white ;
+}
+.castDetails{
+    display: flex;
+}
+.castchild{
+    height:200px ;
+    width:40% ;
+    background-color:teal ;
+    margin-left: 2px;
+}
